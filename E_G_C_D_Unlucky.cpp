@@ -5,7 +5,7 @@ void solve() {
     int n;
     std::cin >> n;
     
-    std::vector<i64> p(n), s(n);
+    std::vector <i64> p(n), s(n);
     for (int i = 0; i < n; i++) {
         std::cin >> p[i];
     }
