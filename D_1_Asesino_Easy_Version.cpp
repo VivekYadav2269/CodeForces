@@ -24,12 +24,7 @@ void solve() {
             return;
         }
     }    
-    
-    if (query(n - 1, n - 2) ^ query(n - 2, n - 1)) {
-        std::cout << "! " << n - 1 << std::endl;
-    } else {
-        std::cout << "! " << n << std::endl;
-    }
+    std::cout << "! " << n << std::endl;
 }
 
 int main() {
