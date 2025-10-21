@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using i64 = long long;
 
-const int N = 2E5 + 1;
+const int N = 2E5 + 2;
 std::vector <std::vector <int>> mul(N);
 
 void sieve() {
